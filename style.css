@@ -3,6 +3,27 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Sacramento', cursive; */
     
+
+::-webkit-scrollbar { width: 20px; }
+::-webkit-scrollbar-track { background-color:#827397; }
+/* 스크롤바의 전체 배경색 */
+::-webkit-scrollbar-thumb { 
+    background-color:#363062;
+
+
+}
+
+::-webkit-scrollbar-button:start:decrement, 
+::-webkit-scrollbar-button:end:increment { 
+    /* 스크롤의 화살표가 포함된 영역 */ display:block; height:8px; 
+    background-color:black; } 
+    ::-webkit-scrollbar-corner { 
+        /* 상하+좌우 스크롤이 만나는 공간 */ background-color:aliceblue; }
+
+
+/* 스크롤바 색 */
+
+
     body{
         text-align: center;
         margin: 0;
