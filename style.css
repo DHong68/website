@@ -1,0 +1,130 @@
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+    
+    body{
+        text-align: center;
+        margin: 0;
+        font-family:'Merriweather', serif;
+    }
+
+    h1{
+        margin-top: 50px;
+        margin-bottom: 0px;
+        padding: 20px;
+        font-size: 90px;
+        font-family: 'Merriweather', serif;
+        color:#827397;
+        background-color:#363062;
+    }
+
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+        color:#827397;
+    }
+    h3{
+        font-family: 'Merriweather', serif;
+    }
+/* absolute 원하는 위치로 조정가능 */
+    .cloud-t{
+        position: absolute;
+        top:50px;
+        right: 250px;
+    }
+    .cloud-b{
+        position: absolute;
+        bottom: 300px;
+        left: 200px;
+    }
+
+      /* hr{ border: 8px dotted gray; */
+    hr{ border-style: none;
+        width: 10%;
+        border-top-style:none;
+        border-bottom-style: dotted;
+        border-bottom-width: 8px;
+       border-bottom-color: gray; 
+    }
+
+    .containerTop{
+    
+        padding: 20px auto 20px auto;
+        text-align: cneter;
+        font-family: 'Sacramento', cursive;
+        position: relative;
+        background-color:#363062;
+      
+        
+    }
+
+    .containerTop h2 span{
+        text-decoration: underline;
+
+    }
+    .middle-container{
+                text-decoration: none;}
+
+   
+        .profile{
+            padding-top: 50px;
+            margin-top: 50px;
+            padding: 100px auto;
+            size: 40%;
+       
+
+        }
+        .profile p{
+            line-height: 2;
+        }
+
+        
+        .skills{
+         padding-top: 100px;
+        
+           
+        }
+/* overflow:auto; float 할때 칸을 벗어나는 것을  방지해줌 */
+        .skill-row {
+            overflow:auto;
+            width:50%;
+            margin:100px auto;
+            text-align: left;
+            line-height: 2;
+          
+        }
+
+        .skillone{
+            width: 25%;
+            float: left;
+            margin-right: 30px;
+            margin-top: 30px;
+        }
+        .skilltwo{
+            width: 25%;
+            float: right;
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+
+    .contact-me .btn{
+        color: aliceblue;
+        display: inline-block;
+        margin-top: 50px;
+        padding: 30px 30px;
+        border-radius: 10px;
+        background-color: #827397;
+    }
+    
+
+
+    .bottom-container{
+        margin-top: 50px;
+        text-decoration-color: none;
+    
+    }
+
+    a{
+        text-decoration:none;
+    }
